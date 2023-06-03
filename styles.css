@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Raleway:wght@400;700&display=swap');
+p{
+    font-family: 'Lato', sans-serif;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: gray;
+  }
+.mid{
+    text-align: center;
+    font-size:125%;
+    margin-top: 0%;
+
+}
+hr {
+    width: 60%; /* Subtracting the padding from the width */
+    margin: 20px 0; /* Adjust the margin as needed */
+    border: none;
+    border-top: 1px solid #000;
+    margin-left: 19%;
+    margin-bottom: 0%;
+  }
+
+h1{
+    font-size: 400%;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    color: gray;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%;
+    padding-top:0%;
+    font-weight: normal;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    color: gray;
+}
+h3 {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+.unbold{
+    font-weight:lighter;
+
+
+}
+.bold{
+    font-weight: bold;
+    color: black;
+}
+@media screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }}
+.container {
+  width: 100%;
+  max-width: 250mm; /* A4 width */
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+  
+.section1 {
+    width: 25%;
+    float: left;
+    padding: 20px;
+  }
+
+.section2 {
+    width:65%;
+    height: 50%;
+    float: left;
+    padding: 20px;
+    padding-right:20px;
+  }
+
